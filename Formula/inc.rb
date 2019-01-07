@@ -9,6 +9,6 @@ class Inc < Formula
 
   def install
     system "cargo", "install", "--root", prefix,
-                               "--path", ".",
+                               "--path", "."
   end
 end
